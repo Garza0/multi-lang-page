@@ -2,6 +2,7 @@
 	"home": "Домашняя страница",
 	"about": "О нас",
 	"introText": "Мы это мы",
+	"aboutUsText": "Текст О Нас",
 	"pageDoesNotExist": "Этой страницы не существует.",
 	"returnToHomepage": "Вернуться на главную"
 }
