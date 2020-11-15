@@ -11,14 +11,14 @@ const App: FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={HomePage}>
-          {/* <HomePage /> */}
+        <Route exact path="/">
+          <HomePage />
         </Route>
-        <Route exact path="/about" component={About}>
-          {/* <About /> */}
+        <Route exact path="/about">
+          <About />
         </Route>
-        <Route path="/404" component={Page404}>
-          {/* <Page404 /> */}
+        <Route path="*">
+          <Page404 />
         </Route>
       </Switch>
     </BrowserRouter>
